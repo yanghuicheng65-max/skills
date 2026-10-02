@@ -2,7 +2,12 @@
 
 我的个人 Agent Skills 仓库，用于集中保存常用技能。我使用 [CC Switch](https://github.com/farion1231/cc-switch) 管理技能在不同 Agent 中的安装与启用。
 
-目前收录 32 个技能，均来自 [Matt Pocock 的 skills 仓库](https://github.com/mattpocock/skills)，来源版本为 [`c55ee46073ed923f86ce59a5eb3b6d895095d1b7`](https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7)。技能文件及其配套资料按原目录复制，下面的中文简介只用于浏览和挑选。原项目采用 MIT 许可证，许可文本见 [licenses/mattpocock-skills-MIT.txt](licenses/mattpocock-skills-MIT.txt)。
+目前收录 33 个技能。技能正文及配套资料保留上游内容，按用途分类；下面的中文简介用于浏览和挑选。
+
+| 来源 | 数量 | 来源版本 | 许可证 |
+| --- | --- | --- | --- |
+| [Matt Pocock](https://github.com/mattpocock/skills) | 32 | [c55ee46](https://github.com/mattpocock/skills/tree/c55ee46073ed923f86ce59a5eb3b6d895095d1b7) | [MIT](licenses/mattpocock-skills-MIT.txt) |
+| [Emil Kowalski](https://github.com/emilkowalski/skills) | 1 | [d16ebe6](https://github.com/emilkowalski/skills/tree/d16ebe60d09a5ba2afcb7054ede9d0a10c9f6128) | [MIT](licenses/emilkowalski-skills-MIT.txt) |
 
 ## 目录
 
@@ -10,14 +15,22 @@
 skills/
 ├── README.md
 ├── licenses/
-│   └── mattpocock-skills-MIT.txt
+│   ├── mattpocock-skills-MIT.txt
+│   └── emilkowalski-skills-MIT.txt
 └── skills/
+    ├── design/          # 界面设计与交互：1 个
     ├── engineering/     # 工程开发：17 个
     ├── productivity/    # 通用效率：7 个
     └── in-progress/     # 上游仍在开发中的技能：8 个
 ```
 
 每个技能都有自己的 `SKILL.md`，相关资料与脚本保留在同一个技能目录中。`in-progress` 是上游的目录名称，提醒使用前先查看内容；它们也已收录在本仓库。
+
+## 界面设计与交互
+
+| 技能 | 简介 |
+| --- | --- |
+| [emil-design-eng](skills/design/emil-design-eng/SKILL.md) | 改善界面与组件的交互细节，指导动画曲线、时长、按下反馈、拖拽、性能和无障碍处理。 |
 
 ## 工程开发
 
